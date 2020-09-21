@@ -30,7 +30,7 @@ def sort_tuples_list(list):
 
 
 def test(res, expt):
-    result = 'Test ✅: \'{}\' equals \'{}\''.format(res, expt) if res == expt else 'Test 🚫: expected \'{}\', but \'{}\' found'.format(expt, res)
+    result = f"Test ✅: \'{res}\' equals \'{expt}\'" if res == expt else f"Test 🚫: expected \'{expt}\', but \'{res}\' found"
     print(result)
 
 def main():

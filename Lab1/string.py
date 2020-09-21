@@ -7,7 +7,7 @@
 # (23) -> 'Number of: many'
 
 def num_of_items(count):
-    return 'Number of: {}'.format(count) if count < 10 else 'Many'
+    return f"Number of: {count}" if count < 10 else 'Many'
 
 
 # 2.
@@ -37,13 +37,13 @@ def replace_char(s):
 # Т.е. 'max', pid' -> 'pix mad'
 # 'dog', 'dinner' -> 'dig donner'
 def str_mix(a, b):
-    return '{} {}'.format(b[0:2] + a[2:], a[0:2] + b[2:])
+    return f"{b[0:2] + a[2:]} {a[0:2] + b[2:]}"
 
 
 # Provided simple test() function used in main() to print
 # what each function returns vs. what it's supposed to return.
 def test(res, expt):
-    result = 'Test ✅: \'{}\' equals \'{}\''.format(res, expt) if res == expt else 'Test 🚫: expected \'{}\', but \'{}\' found'.format(expt, res)
+    result = f"Test ✅: \'{res}\' equals \'{expt}\'" if res == expt else f"Test 🚫: expected \'{expt}\', but \'{res}\' found"
     print(result)
 
 
