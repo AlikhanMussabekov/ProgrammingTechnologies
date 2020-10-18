@@ -9,12 +9,19 @@
 /* Begin PBXFileReference section */
 		074E1A5D2518042200B402D1 /* list.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = list.py; sourceTree = "<group>"; };
 		074E1A5E2518042200B402D1 /* string.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = string.py; sourceTree = "<group>"; };
+		078BABD7253C6AE700213727 /* names.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = names.py; sourceTree = "<group>"; };
+		078BABD8253C6D0B00213727 /* name2006.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = name2006.html; sourceTree = "<group>"; };
+		078BABD9253C6D0B00213727 /* name2008.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = name2008.html; sourceTree = "<group>"; };
+		079B319D25288E940083B178 /* List.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = List.py; sourceTree = "<group>"; };
+		079B319E25288EC40083B178 /* String.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = String.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		074E1A4F2517FEFD00B402D1 = {
 			isa = PBXGroup;
 			children = (
+				078BABD6253C6ACE00213727 /* Lab3 */,
+				079B319B25288E580083B178 /* Lab2 */,
 				074E1A5C2517FF2600B402D1 /* Lab1 */,
 			);
 			sourceTree = "<group>";
@@ -26,6 +33,25 @@
 				074E1A5E2518042200B402D1 /* string.py */,
 			);
 			path = Lab1;
+			sourceTree = "<group>";
+		};
+		078BABD6253C6ACE00213727 /* Lab3 */ = {
+			isa = PBXGroup;
+			children = (
+				078BABD8253C6D0B00213727 /* name2006.html */,
+				078BABD9253C6D0B00213727 /* name2008.html */,
+				078BABD7253C6AE700213727 /* names.py */,
+			);
+			path = Lab3;
+			sourceTree = "<group>";
+		};
+		079B319B25288E580083B178 /* Lab2 */ = {
+			isa = PBXGroup;
+			children = (
+				079B319D25288E940083B178 /* List.py */,
+				079B319E25288EC40083B178 /* String.py */,
+			);
+			path = Lab2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
