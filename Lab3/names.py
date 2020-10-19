@@ -24,6 +24,7 @@ def extr_name(filename):
         top = top_10(soup.find('table', summary="Popularity for top 1000"))
         top.sort()
         print(f"{year}, {', '.join(map(str, top)) }")
+    f.close()
 
 def top_10(table):
     top = []
