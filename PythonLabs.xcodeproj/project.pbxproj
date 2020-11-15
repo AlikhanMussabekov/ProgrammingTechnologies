@@ -14,6 +14,10 @@
 		078BABD9253C6D0B00213727 /* name2008.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = name2008.html; sourceTree = "<group>"; };
 		079B319D25288E940083B178 /* List.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = List.py; sourceTree = "<group>"; };
 		079B319E25288EC40083B178 /* String.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = String.py; sourceTree = "<group>"; };
+		07A3C5172561996C00E99392 /* lab5.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = lab5.py; sourceTree = "<group>"; };
+		07A3C5182561AA9700E99392 /* names */ = {isa = PBXFileReference; lastKnownFileType = text; path = names; sourceTree = "<group>"; };
+		07A3C5192561C0B700E99392 /* haarcascade_frontalface_default.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = haarcascade_frontalface_default.xml; sourceTree = "<group>"; };
+		07A3C51A2561D62200E99392 /* game.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = game.html; path = Lab5/game.html; sourceTree = SOURCE_ROOT; };
 		07A73BB325502DD800DB9687 /* file.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = file.py; sourceTree = "<group>"; };
 		07A73BB425502F9900DB9687 /* Text */ = {isa = PBXFileReference; lastKnownFileType = text; path = Text; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -22,6 +26,7 @@
 		074E1A4F2517FEFD00B402D1 = {
 			isa = PBXGroup;
 			children = (
+				07A3C5162561995200E99392 /* Lab5 */,
 				07A73BB225502DB500DB9687 /* Lab4 */,
 				078BABD6253C6ACE00213727 /* Lab3 */,
 				079B319B25288E580083B178 /* Lab2 */,
@@ -55,6 +60,17 @@
 				079B319E25288EC40083B178 /* String.py */,
 			);
 			path = Lab2;
+			sourceTree = "<group>";
+		};
+		07A3C5162561995200E99392 /* Lab5 */ = {
+			isa = PBXGroup;
+			children = (
+				07A3C5172561996C00E99392 /* lab5.py */,
+				07A3C5182561AA9700E99392 /* names */,
+				07A3C5192561C0B700E99392 /* haarcascade_frontalface_default.xml */,
+				07A3C51A2561D62200E99392 /* game.html */,
+			);
+			path = Lab5;
 			sourceTree = "<group>";
 		};
 		07A73BB225502DB500DB9687 /* Lab4 */ = {

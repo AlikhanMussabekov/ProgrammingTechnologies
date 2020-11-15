@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The best game in the city</title>
+</head>
+
+<body>
+    <div>
+        <p>Please select level</p>
+        <div>
+            <input type="radio" name="level" value="1">
+            <label>1</label>
+
+            <input type="radio" name="level" value="2">
+            <label>2</label>
+
+            <input type="radio" name="level" value="3">
+            <label>3</label>
+        </div>
+        <div>
+            <button onclick="displayRadioValue()">Submit</button>
+        </div>
+    </div>
+    <img id="image" src="">
+    <br>
+    <select id="arr" onchange="selectOnChange()"></select>
+</body>
+
+<script>
+
+    let answer = ""
+    
+    function displayRadioValue() {
+        let lvl = document.querySelector('input[name="level"]:checked').value;
+        let url = new URL('http://127.0.0.1:5000/startgame?lvl=' + lvl);
+        fetch(url)
+            .then(response => response.json())
+            .then(result => {
+                answer = result.answer;
+                document.getElementById("image").src = result.image;
+                let select = document.getElementById("arr");
+                let elems = result.names;
+
+                for (let i = 0; i < elems.length; i++) {
+                    let optn = elems[i];
+                    let el = document.createElement("option");
+                    el.textContent = optn;
+                    el.value = optn;
+                    select.appendChild(el);
+                }
+            });
+    }
+
+    function selectOnChange() {
+        arr = document.getElementById("arr")
+        selected = arr.options[arr.selectedIndex].value;
+        answer == selected ? alert("You are AMAZING!") : alert("Bad luck, try again..((");
+    }
+
+</script>
+</html>
