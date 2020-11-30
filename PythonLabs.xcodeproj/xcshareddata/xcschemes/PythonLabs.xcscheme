@@ -75,6 +75,10 @@
          </CommandLineArgument>
          <CommandLineArgument
             argument = "/Users/a.musabekov/labs/ProgrammingTechnologies/PythonLabs/Lab5/lab5.py"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "/Users/a.musabekov/labs/ProgrammingTechnologies/PythonLabs/Lab6/lab6.py"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

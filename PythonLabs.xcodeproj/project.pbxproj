@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		07404B3625750A3F00B790BF /* lab6.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = lab6.py; sourceTree = "<group>"; };
+		07404B3725752C9900B790BF /* lab6.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = lab6.html; sourceTree = "<group>"; };
 		074E1A5D2518042200B402D1 /* list.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = list.py; sourceTree = "<group>"; };
 		074E1A5E2518042200B402D1 /* string.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = string.py; sourceTree = "<group>"; };
 		078BABD7253C6AE700213727 /* names.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = names.py; sourceTree = "<group>"; };
@@ -23,9 +25,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		07404B3525750A2700B790BF /* Lab6 */ = {
+			isa = PBXGroup;
+			children = (
+				07404B3625750A3F00B790BF /* lab6.py */,
+				07404B3725752C9900B790BF /* lab6.html */,
+			);
+			path = Lab6;
+			sourceTree = "<group>";
+		};
 		074E1A4F2517FEFD00B402D1 = {
 			isa = PBXGroup;
 			children = (
+				07404B3525750A2700B790BF /* Lab6 */,
 				07A3C5162561995200E99392 /* Lab5 */,
 				07A73BB225502DB500DB9687 /* Lab4 */,
 				078BABD6253C6ACE00213727 /* Lab3 */,
